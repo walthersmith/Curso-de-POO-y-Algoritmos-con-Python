@@ -21,6 +21,6 @@ if __name__ == '__main__':
     lista =  [random.randint(0,100) for i in range(tamano_de_lista)]
     print(lista)
 
-    lista_ordenada = ordenamiento_por_insersion(lista)
+    lista_ordenada = ordenamiento_por_insercion(lista)
     print('----*****-----')
     print(lista_ordenada)
