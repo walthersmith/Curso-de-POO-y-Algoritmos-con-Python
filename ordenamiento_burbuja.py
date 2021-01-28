@@ -13,7 +13,7 @@ def ordenamiento_de_burbujas(lista):
 
 if __name__ == '__main__':
 
-    tamano_de_lista = int(input('De que manano sera la lista? '))
+    tamano_de_lista = int(input('De que tamano sera la lista? '))
 
     lista = [random.randint(0,100) for i in range(tamano_de_lista)]
     print(lista)

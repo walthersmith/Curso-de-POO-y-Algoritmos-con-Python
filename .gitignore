@@ -130,3 +130,5 @@ dmypy.json
 
 #paycharm
 .idea/
+#vscode
+.vscode/
