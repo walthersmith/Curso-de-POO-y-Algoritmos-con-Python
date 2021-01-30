@@ -8,7 +8,7 @@ por lo cual debes determinar cuales artículos puedes cargar y te entregaran el 
 Para este problema sabemos que no podemos dividir los artículos, 
 por lo que nuestra primera aproximación sera evaluar los artículos
 '''
-def morral(tamano_morral, pesos, valores, n): 
+def morral(tamano_morral, pesos, valores, n): # O(2**n)
     print('-'*50)
     print(f'n = {n}  tamano_morral {tamano_morral}')
     #caso base 
